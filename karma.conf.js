@@ -1,3 +1,4 @@
+
 const webpack = require('./webpack.config');
 webpack.mode = 'development';
 module.exports = (config) => {
@@ -16,7 +17,7 @@ module.exports = (config) => {
 
         webpack,
 
-        reporters: ['dots'],
+        reporters: ['awesome'],
 
         browsers: ['ChromeHeadless'], // or just 'Chrome', 'ie', 'firefox', etc.
    
